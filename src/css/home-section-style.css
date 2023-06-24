@@ -1,15 +1,14 @@
 .home-section {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    padding-top: 116px;
 }
 
 .home-section::before {
     content: "";
-    background-image: url(../imgs/background-3.png);
+    background-image: url(/imgs/background-3.png);
     background-position: center;
     background-size: cover;
     inset: 0;
@@ -26,6 +25,7 @@
     font-weight: var(--fw-bold);
     color: var(--clr-primary);
     font-size: 45px;
+    margin-top: 158px;
     margin-bottom: 39px;
 }
 
@@ -53,6 +53,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-top: 10px;
 }
 
 .home-section .home-social .home-social-a {
@@ -83,12 +84,12 @@
 
     .home-section .home-logo-img {
         display: block;
-        margin-top: 168px;
+        margin-top: 77px;
     }
 
     .home-section .home-h1 {
         margin-bottom: 14px;
-        margin-top: 32px;
+        margin-top: 35px;
         font-size: 24px;
     }
 
@@ -109,7 +110,8 @@
         align-items: center;
         justify-content: center;
         gap: 19px;
-        margin-bottom: 86px;
+        margin-bottom: 91px;
+        padding-top: 0;
     }
 
     .home-section .home-social .home-social-a {
@@ -120,7 +122,5 @@
         display: none;
     }
 
-    .home-section .home-scroll-img {
-        margin-bottom: 80px;
-    }
+    
 }
